@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-22T12:45:28 CDT" name="Suite" finished-at="2022-06-22T12:45:52 CDT" duration-ms="24202">
+    <groups>
+      <group name="imp">
+        <method signature="NewTest.fifthTest()[pri:0, instance:vrr.mvntestngitjenkins.tests.NewTest@6221a451]" name="fifthTest" class="vrr.mvntestngitjenkins.tests.NewTest"/>
+        <method signature="NewTest.fourthTest()[pri:0, instance:vrr.mvntestngitjenkins.tests.NewTest@6221a451]" name="fourthTest" class="vrr.mvntestngitjenkins.tests.NewTest"/>
+        <method signature="NewTest.secondTest()[pri:0, instance:vrr.mvntestngitjenkins.tests.NewTest@6221a451]" name="secondTest" class="vrr.mvntestngitjenkins.tests.NewTest"/>
+        <method signature="NewTest.thirdTest()[pri:0, instance:vrr.mvntestngitjenkins.tests.NewTest@6221a451]" name="thirdTest" class="vrr.mvntestngitjenkins.tests.NewTest"/>
+      </group> <!-- imp -->
+    </groups>
+    <test started-at="2022-06-22T12:45:28 CDT" name="Test" finished-at="2022-06-22T12:45:52 CDT" duration-ms="24202">
+      <class name="vrr.mvntestngitjenkins.tests.Practice1Test">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:vrr.mvntestngitjenkins.tests.Practice1Test@18df8434]" started-at="2022-06-22T12:45:28 CDT" name="beforeClass" finished-at="2022-06-22T12:45:30 CDT" duration-ms="1693" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="preRequisite()[pri:0, instance:vrr.mvntestngitjenkins.tests.Practice1Test@18df8434]" started-at="2022-06-22T12:45:30 CDT" name="preRequisite" finished-at="2022-06-22T12:45:33 CDT" duration-ms="2902" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preRequisite -->
+        <test-method signature="clickRB()[pri:0, instance:vrr.mvntestngitjenkins.tests.Practice1Test@18df8434]" started-at="2022-06-22T12:45:33 CDT" name="clickRB" finished-at="2022-06-22T12:45:39 CDT" duration-ms="6181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickRB -->
+        <test-method is-config="true" signature="preRequisite()[pri:0, instance:vrr.mvntestngitjenkins.tests.Practice1Test@18df8434]" started-at="2022-06-22T12:45:39 CDT" name="preRequisite" finished-at="2022-06-22T12:45:41 CDT" duration-ms="2129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preRequisite -->
+        <test-method signature="selectFromDropdown()[pri:1, instance:vrr.mvntestngitjenkins.tests.Practice1Test@18df8434]" started-at="2022-06-22T12:45:41 CDT" name="selectFromDropdown" finished-at="2022-06-22T12:45:45 CDT" duration-ms="4205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectFromDropdown -->
+        <test-method is-config="true" signature="preRequisite()[pri:0, instance:vrr.mvntestngitjenkins.tests.Practice1Test@18df8434]" started-at="2022-06-22T12:45:45 CDT" name="preRequisite" finished-at="2022-06-22T12:45:46 CDT" duration-ms="817" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preRequisite -->
+        <test-method signature="multiSelectExample()[pri:2, instance:vrr.mvntestngitjenkins.tests.Practice1Test@18df8434]" started-at="2022-06-22T12:45:46 CDT" name="multiSelectExample" finished-at="2022-06-22T12:45:46 CDT" duration-ms="218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multiSelectExample -->
+        <test-method is-config="true" signature="preRequisite()[pri:0, instance:vrr.mvntestngitjenkins.tests.Practice1Test@18df8434]" started-at="2022-06-22T12:45:46 CDT" name="preRequisite" finished-at="2022-06-22T12:45:47 CDT" duration-ms="949" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preRequisite -->
+        <test-method signature="checkBoxExample()[pri:3, instance:vrr.mvntestngitjenkins.tests.Practice1Test@18df8434]" started-at="2022-06-22T12:45:47 CDT" name="checkBoxExample" finished-at="2022-06-22T12:45:47 CDT" duration-ms="47" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkBoxExample -->
+        <test-method is-config="true" signature="preRequisite()[pri:0, instance:vrr.mvntestngitjenkins.tests.Practice1Test@18df8434]" started-at="2022-06-22T12:45:47 CDT" name="preRequisite" finished-at="2022-06-22T12:45:48 CDT" duration-ms="783" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preRequisite -->
+        <test-method signature="loginExample()[pri:4, instance:vrr.mvntestngitjenkins.tests.Practice1Test@18df8434]" started-at="2022-06-22T12:45:48 CDT" name="loginExample" finished-at="2022-06-22T12:45:52 CDT" duration-ms="4183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginExample -->
+        <test-method is-config="true" signature="closing()[pri:0, instance:vrr.mvntestngitjenkins.tests.Practice1Test@18df8434]" started-at="2022-06-22T12:45:52 CDT" name="closing" finished-at="2022-06-22T12:45:52 CDT" duration-ms="52" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closing -->
+      </class> <!-- vrr.mvntestngitjenkins.tests.Practice1Test -->
+      <class name="vrr.mvntestngitjenkins.tests.NewTest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:vrr.mvntestngitjenkins.tests.NewTest@6221a451]" started-at="2022-06-22T12:45:28 CDT" name="beforeClass" finished-at="2022-06-22T12:45:30 CDT" duration-ms="1706" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="preRequisite()[pri:0, instance:vrr.mvntestngitjenkins.tests.NewTest@6221a451]" started-at="2022-06-22T12:45:30 CDT" name="preRequisite" finished-at="2022-06-22T12:45:33 CDT" duration-ms="3137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preRequisite -->
+        <test-method signature="fifthTest()[pri:0, instance:vrr.mvntestngitjenkins.tests.NewTest@6221a451]" started-at="2022-06-22T12:45:33 CDT" name="fifthTest" finished-at="2022-06-22T12:45:33 CDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fifthTest -->
+        <test-method is-config="true" signature="preRequisite()[pri:0, instance:vrr.mvntestngitjenkins.tests.NewTest@6221a451]" started-at="2022-06-22T12:45:33 CDT" name="preRequisite" finished-at="2022-06-22T12:45:34 CDT" duration-ms="772" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preRequisite -->
+        <test-method signature="fourthTest()[pri:0, instance:vrr.mvntestngitjenkins.tests.NewTest@6221a451]" started-at="2022-06-22T12:45:34 CDT" name="fourthTest" finished-at="2022-06-22T12:45:34 CDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fourthTest -->
+        <test-method is-config="true" signature="preRequisite()[pri:0, instance:vrr.mvntestngitjenkins.tests.NewTest@6221a451]" started-at="2022-06-22T12:45:34 CDT" name="preRequisite" finished-at="2022-06-22T12:45:35 CDT" duration-ms="677" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preRequisite -->
+        <test-method signature="homePageTest()[pri:0, instance:vrr.mvntestngitjenkins.tests.NewTest@6221a451]" started-at="2022-06-22T12:45:35 CDT" name="homePageTest" finished-at="2022-06-22T12:45:41 CDT" duration-ms="6248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageTest -->
+        <test-method is-config="true" signature="preRequisite()[pri:0, instance:vrr.mvntestngitjenkins.tests.NewTest@6221a451]" started-at="2022-06-22T12:45:41 CDT" name="preRequisite" finished-at="2022-06-22T12:45:42 CDT" duration-ms="793" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preRequisite -->
+        <test-method signature="secondTest()[pri:0, instance:vrr.mvntestngitjenkins.tests.NewTest@6221a451]" started-at="2022-06-22T12:45:42 CDT" name="secondTest" finished-at="2022-06-22T12:45:42 CDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondTest -->
+        <test-method is-config="true" signature="preRequisite()[pri:0, instance:vrr.mvntestngitjenkins.tests.NewTest@6221a451]" started-at="2022-06-22T12:45:42 CDT" name="preRequisite" finished-at="2022-06-22T12:45:42 CDT" duration-ms="666" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preRequisite -->
+        <test-method signature="thirdTest()[pri:0, instance:vrr.mvntestngitjenkins.tests.NewTest@6221a451]" started-at="2022-06-22T12:45:42 CDT" name="thirdTest" finished-at="2022-06-22T12:45:42 CDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- thirdTest -->
+        <test-method is-config="true" signature="closing()[pri:0, instance:vrr.mvntestngitjenkins.tests.NewTest@6221a451]" started-at="2022-06-22T12:45:42 CDT" name="closing" finished-at="2022-06-22T12:45:42 CDT" duration-ms="47" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closing -->
+      </class> <!-- vrr.mvntestngitjenkins.tests.NewTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

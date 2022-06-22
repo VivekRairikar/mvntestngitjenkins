@@ -1,22 +1,34 @@
 package vrr.mvntestngitjenkins.tests;
 
 import org.testng.annotations.Test;
-
+import vrr.mvntestngitjenkins.Base;
 import vrr.mvntestngitjenkins.pages.HomePage;
 import vrr.mvntestngitjenkins.pages.LoginPage;
-
-import java.time.Duration;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.edge.EdgeDriver;
+import java.io.IOException;
 import org.testng.Assert;
-import org.testng.annotations.AfterTest;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 
-public class Practice1Test {
+public class Practice1Test extends Base {
 	private String baseURL;
-	WebDriver driver = new EdgeDriver();
-	HomePage homePage = new HomePage(driver);
-	LoginPage loginPage = new LoginPage(driver);
+	HomePage homePage;
+	LoginPage loginPage;
+	
+	@BeforeClass
+	public void beforeClass() throws IOException {
+		driver = initializeDriver();
+	}
+	
+	@BeforeMethod
+	public void preRequisite() throws IOException {
+		System.out.println("Before Method!!!");
+		
+		baseURL = prop.getProperty("url");
+		driver.get(baseURL);
+		homePage = new HomePage(driver);
+		loginPage = new LoginPage(driver);
+	}
 
 	@Test(priority = 0)
 	public void clickRB() throws InterruptedException {
@@ -75,18 +87,11 @@ public class Practice1Test {
 		System.out.println("5th test!!!");
 	}
 
-	@BeforeMethod
-	public void preRequisite() {
-		System.out.println("Before Method!!!");
-		baseURL = "https://courses.letskodeit.com/practice";
-		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
-		driver.get(baseURL);
-	}
+	
 
-	@AfterTest
+	@AfterClass
 	public void closing() {
 		System.out.println("closing!!!");
-		driver.quit();
+		driver.close();
 	}
 }

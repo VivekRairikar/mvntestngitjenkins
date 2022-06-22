@@ -16,7 +16,7 @@ public class HomePage {
 		
 	}
 
-	@FindBy(xpath = "//li[@data-id='41188']/a[@class='dynamic-link']")
+	@FindBy(xpath = "//div[@data-uniqid='1577352988168']//ul/li[@data-id='41188']/a[text()='HOME']")
 	WebElement homeLink;
 	public void clickHomeLink() {
 		homeLink.click();
